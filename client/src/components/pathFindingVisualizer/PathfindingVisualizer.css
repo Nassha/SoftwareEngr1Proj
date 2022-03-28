@@ -1,0 +1,31 @@
+.grid-container {
+  margin: 8% auto;
+  background-color: rgba(134, 141, 146, 0.801);
+}
+
+.grid {
+  white-space: pre;
+
+}
+
+button {
+  padding: unset;
+  padding: 0.5 rem;
+}
+
+.pathfindcontent {
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  padding-bottom: 10rem;
+}
+
+.textDistance{
+  color: white;
+  font-weight:800;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}

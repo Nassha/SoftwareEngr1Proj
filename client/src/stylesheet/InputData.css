@@ -1,0 +1,12 @@
+textarea.input-data {
+  margin-top: 20px;
+  width: 70%;
+  height: 15%;
+  resize: none;
+  background-color: rgba(31, 104, 99, 0.678);
+  color:aliceblue;
+  border-color: transparent;
+  padding:7px;
+  margin-right: unset;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -1,0 +1,57 @@
+.samplecode {
+  width: 19%;
+  height: 4.2%;
+  margin-top: 0.8%;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+
+.samplecodebutton {
+  width: auto;
+  height: auto;
+  margin-top:55px;
+  margin-left:-80%;
+  text-align: middle;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 5px;
+  font-family: monospace;
+}
+
+.changecodecontent {
+  width: 190px;
+  height: 200px;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  overflow:auto;
+  align-content: center;
+  text-align: center;
+  position: fixed;
+  border-color: black;
+  border-width: 5px;
+  border-style: double;
+  background-color: rgba(0, 0, 0, 0.815);
+  z-index: 1001;
+  color: aliceblue;
+  padding:5px;
+}
+
+
+.gosample {
+  width: auto;
+  height: auto;
+  margin: 4px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+  color: aliceblue;
+  padding: 4px;
+  font-family: monospace;
+}

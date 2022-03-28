@@ -1,0 +1,12 @@
+div.operation-state {
+  width: 40%;
+  height: 100%;
+  float: right;
+  color: aliceblue;
+}
+
+.op-section {
+  vertical-align: middle;
+  color: white;
+  border-color: red;
+}

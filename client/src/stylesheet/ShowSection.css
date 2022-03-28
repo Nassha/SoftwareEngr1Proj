@@ -1,0 +1,36 @@
+section.show-section {
+  width: 65%;
+  height: 90%;
+  margin: 0;
+  float: left;
+  margin-left:1%;
+}
+
+div.text-show1 {
+  width: auto;
+  height: auto;
+  margin: 1px;
+  margin-top: 2.5%;
+  float: left;
+  position: relative;
+  text-align: middle;
+  font-weight:bold;
+  color: aliceblue;
+  font-family: monospace;
+  font-size:x-large;
+}
+
+.stopping {
+  width: auto;
+  height: auto;
+  margin-top: 2.5%;
+  margin-right: 5px;
+  float: right;
+  position: relative;
+  text-align: middle;
+  border: none;
+  color: white;
+  padding: 4px;
+  font-size: 14px;
+  font-family: monospace;
+}

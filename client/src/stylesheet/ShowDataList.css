@@ -1,0 +1,134 @@
+.showdata {
+  width: 15%;
+  height: 4.2%;
+  float: left;
+  position: relative;
+  margin:0;
+  margin-top: 0.8%;
+}
+
+.showdatabutton {
+  width: auto;
+  height: auto;
+  border: none;
+  background-color: Black;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px;
+  margin-right:7px;
+  margin-left: 5px;
+  font-family: monospace;
+}
+
+.coverDom2 {
+  width: 1000%;
+  height: 1000%;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(0,0,0,0);
+  z-index: 1000;
+}
+
+.dataContent {
+  width: 400px;
+  height: 300px;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  overflow: scroll;
+  position: fixed;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+  background-color: rgba(14, 13, 13, 0.808);
+  z-index: 1001;
+}
+
+.datascript {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  border-color: red;
+  border-width: 1px;
+  overflow: hidden;
+  border-style: solid;
+}
+
+.datastring {
+  width: 100%;
+  position: relative;
+  border-color: rgb(253, 253, 253);
+  border-width: 1px;
+  overflow: hidden;
+  border-style: solid;
+  color: aliceblue;
+}
+
+.dataname {
+  height: 150%;
+  position:relative;
+  float: left;
+  color: aliceblue;
+}
+
+.consolelog {
+  width: 50%;
+  height: 120%;
+  text-align: middle;
+  border: none;
+  margin:2px;
+  margin-top:1px;
+  float: right;
+  position: relative;
+  background-color: rgb(245, 245, 245);
+  color: white;
+  cursor: pointer;
+}
+
+
+.toString {
+  width: 50%;
+  height: 120%;
+  text-align: middle;
+  border: none;
+  margin:2px;
+  margin-top:-5px;
+  float: right;
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  color: white;
+  cursor: pointer;
+}
+
+.viewobject {
+  width: 10%;
+  height: 90%;
+  text-align: middle;
+  border: none;
+  margin:2px;
+  margin-top:1px;
+  float: right;
+  position: relative;
+  background-color: Black;
+  color: white;
+  cursor: pointer;
+}
+
+.closeshowdata {
+  width: auto;
+  height:auto;
+  text-align: middle;
+  border: none;
+  background-color: Black;
+  color: white;
+  margin-top:2px;
+  float: left;
+  position: relative;
+  padding:4px;
+  margin-left: 35%;
+}

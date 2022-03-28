@@ -1,0 +1,641 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.log_h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.hidden_email{
+  display: none;
+}
+
+.login_form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  width: 30%;
+  margin-left: 75vh;
+  margin-bottom: 30px;
+}
+
+.box1 input{
+  width: 60%;
+  height: 30px;
+  margin-left: 0%;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 2px solid turquoise;
+  background-color: rgba(97, 43, 122, 0.836);
+  padding: 20px;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+.reply_shown{
+  display: block;
+  margin-top: -20px;
+}
+.replyuser {
+  font-weight: bolder;
+  display: inline-block;
+  padding-left: 7px;
+}
+.reply_shown input{
+  width: 40%;
+  height: 30px;
+  margin-left: 0%;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 2px solid turquoise;
+  background-color: rgba(97, 43, 122, 0.836);
+  padding: 20px;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+
+
+.reply_hidden{
+  visibility: hidden;
+  margin-top: -80px;
+  margin-bottom: 0px;
+}
+
+.login_form button {
+  width: 120px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+.login_form input {
+  margin: 5px;
+}
+
+.login_form label {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.LinkedList,
+.Queue,
+.Tree {
+  display: flex;
+  height: 90vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.Information {
+  background: transparent;
+  scroll-behavior: smooth;
+}
+.InformationBox1 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-image: url("../src/components/images/space.png");
+  align-items: center;
+  font-family: monospace;
+}
+.InformationBox2 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-image: url("../src/components/images/space.png");
+}
+
+.Infotxtbox {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2rem;
+  color: white;
+}
+.InformationDivider {
+  padding-top: 3vh;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  height: 3vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-image: url("../src/components/images/space.png");
+  font-size: 6vh;
+  text-align: center;
+}
+
+h1 {
+  color: turquoise;
+  font-family: monospace;
+  font-weight: bold;
+}
+h2 {
+  color: rgb(188, 247, 241);
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.Sorting {
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../src/components/images/pixel.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+}
+
+.ShortestPath {
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../src/components/images/pixel.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 115vh;
+}
+
+.DataStructures {
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../src/components/images/pixel.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.DSleft {
+  width: 60%;
+  float: left;
+  margin-left: 2%;
+  margin-right: unset;
+}
+.DSright {
+  color: white;
+  width: 20%;
+  float: right;
+}
+.left {
+  width: 60%;
+  float: left;
+}
+
+.right {
+  color: white;
+  width: 20%;
+  float: right;
+}
+.leftInfo {
+  width: 60%;
+  float: left;
+  color: white;
+  padding: 5rem;
+  font-size: 1.15rem;
+  /* background-image: url("../src/components/images/bluebox.png"); */
+  text-align: justify;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.boximg {
+  position: relative;
+  right: 100px;
+  top: 180px;
+  width: 80%;
+}
+.speechbubble1 {
+  position: relative;
+  float: left;
+  left: 10vw;
+  bottom: -21vh;
+  width: 50%;
+}
+.speechbubble2 {
+  position: relative;
+  left: 0px;
+  top: 190px;
+  width: 50%;
+}
+.htext {
+  font-weight: bold;
+  font-size: x-large;
+  color: gold;
+  font-size: x-large;
+}
+.girl1 {
+  position: relative;
+  right: 20vw;
+  top: 25vh;
+  width: 40%;
+  transform: scaleX(-1);
+}
+.girl2 {
+  position: relative;
+  right: 175px;
+  top: 100px;
+  width: 60%;
+  transform: scaleX(-1);
+}
+.rightInfo {
+  width: 40%;
+  float: right;
+  color: white;
+  padding: 0rem;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.left-panel {
+  width: 20%;
+  float: left;
+}
+.ShortestPath .left-panel {
+  width: 20%;
+  float: left;
+}
+
+.ShortestPath .left {
+  width: 55%;
+}
+.ShortestPath .right {
+  width: 25%;
+}
+.ShortestPath .left button {
+  font-size: 18px;
+  align-content: center;
+}
+.DataStructures .left-panel {
+  width: 17%;
+}
+
+.box1 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-image: url("../src/components/images/night5.gif");
+  align-items: center;
+  font-family: monospace;
+}
+.box2 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/components/images/night4.gif");
+  background-size: cover;
+}
+
+.Home {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+#typer1 {
+  color: aliceblue;
+  font-size: 10vh;
+  font-weight: 700;
+  font-family: monospace;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#typer2 {
+  color: aliceblue;
+  font-size: 10vh;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(31, 39, 14);
+}
+
+#typer0 {
+  font-family: monospace;
+}
+.box2 p {
+  align-content: center;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 4vh;
+  font-size: 3vh;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(31, 39, 14);
+  color: rgb(253, 253, 251);
+}
+
+.TabBox {
+  font-size: calc(0.5vh + 0.5vw);
+  height: 80vh;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ExecutionTime {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+.commentform {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.commentform input {
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+  border: 2px solid turquoise;
+  background-color: rgba(97, 43, 122, 0.836);
+  padding: 15px;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+.commentform label {
+  color: aliceblue;
+  text-align: center;
+  font-size: large;
+}
+.commentform button {
+  width: fit-content;
+  text-align: center;
+  margin-left: 48%;
+  margin-right: 48%;
+}
+.cardholder {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.replyholder{
+  margin-top: 15px;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+
+.card {
+  width: 97%;
+  height: auto;
+  padding: 20px;
+  border-style: double;
+  border-width: 6px;
+  border-color: turquoise;
+  border-radius: 10px;
+  margin: 10px;
+  color: turquoise;
+  text-align: justify;
+  font-size: large;
+  border-radius: 19px;
+  background: rgba(0, 0, 0, 0.788);
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+.commentmsg{
+  padding-left: 50px;
+}
+.replymsg{
+  padding-left: 28px;
+}
+.datemsg{
+  padding-left: 88%;
+}
+.user {
+  display: inline-block;
+  padding-left: 7px;
+}
+.usericon {
+  vertical-align: middle;
+}
+.commentbtn {
+  border: none;
+  background: none;
+  font-size: large;
+  font-family: monospace;
+}
+.replybtn {
+  border: none;
+  background: none;
+  font-size: large;
+  font-family: monospace;
+}
+
+.updateinput {
+  background:turquoise;
+  border-style: hidden;
+  color:black;
+  font-family: monospace;
+  width: 30%;
+}
+
+.ideatext{
+   color:violet;
+   font-weight: bold;
+}
+/* Backend */
+.BackendPage {
+  background: rgb(211, 228, 228);
+  font-family: monospace;
+}
+.backend_title{
+  color: black;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+.userinfo{
+  color: black;
+}
+#listtable {
+  background-color: white;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}
+#listtable td, #listtable th {
+  border-bottom: 1px solid rgb(107, 107, 107); 
+  padding: 5px;
+  color: black;
+  
+}
+
+#listtable tr:nth-child(even){background-color: #f5f5f5;}
+
+#listtable tr:hover {background-color: #ddd;}
+
+#listtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(86, 139, 139, 0.808);
+  color: rgb(0, 0, 0);
+}
+.deletebtn{
+  font-size: 15px;
+  background-color: rgba(177, 36, 36, 0.808);
+  border-radius: 8px;
+  border:rgb(0, 0, 0);
+  color: black;
+}
+.deletebtn:hover{
+  background-color: rgba(199, 73, 73, 0.808);
+}
+.pagination{
+  display: inline-block;
+  text-align: center;
+  margin-left: calc(50% - 350px);
+
+}
+.pagination input, .pagination select{
+  height: 30px;
+}
+.pagination button, .backendbtn{
+  background-color: rgba(86, 139, 139, 0.808);
+  font-size: 15px;
+  border-radius: 8px;
+  border:rgb(0, 0, 0);
+  color: black;
+}
+.pagination button:hover, .backendbtn:hover{
+  background-color: rgba(67, 110, 110, 0.808);
+  border-radius: 8px;
+  border:rgb(0, 0, 0);
+  color: black;
+}
+.backendchkbox{
+  width: 20px;
+  height: 20px;
+}
+.backendcard {
+  width: 97%;
+  height: auto;
+  padding: 20px;
+  border-color: solid, 5px;
+  margin: 10px;
+  color: black;
+  text-align: left;
+  font-size: large;
+  border-radius: 19px;
+  background: rgba(255, 255, 255);
+  margin-bottom: 10px;
+}
+.backenduser {
+  font-size: 24px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-left: 7px;
+}
+.backendreplyuser {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-left: 7px;
+}
+.backendinput {
+  background:rgba(233, 233, 233);
+  height: 30px;
+  border-style: hidden;
+  color:black;
+  font-family: monospace;
+  width: 100%;
+  border-color: rgba(233, 233, 233);
+  border-style: solid;
+  border-radius: 5px;
+}
+.AdminPage {
+  background-color: rgb(211, 228, 228);
+  font-family: monospace;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+}
+.backendform {
+  position: absolute;
+  top: 25%;
+  left: 37.5%;
+  height: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255);
+  width: 25%;
+  padding: 20px;
+  border-color: solid, 5px;
+  border-radius: 19px;
+}
+.passwordfield{
+  font-family: monospace;
+  font-size: 15px;
+  color: black;
+  background-color: #00000000;
+  border:none;
+}
+.backendinput{
+  width: 160px;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

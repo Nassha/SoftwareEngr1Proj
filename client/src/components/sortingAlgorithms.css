@@ -1,0 +1,52 @@
+.ButtonContainer{
+    position:center;
+    
+}
+
+  .btn{
+     width :auto;
+     height :auto;
+     font-size: 20px;
+     text-align :center;
+     margin:10px;
+     color: rgba(255,255,255,0.9);
+     border-radius :0px;
+     background :linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+     background-size:600%;
+     animation:anime 16s linear infinite;
+     border-style:hidden;
+     font-family: 'Century Gothic';
+     font-weight: bold;
+  }
+
+ @keyframes anime {
+   0%{
+     background-position: 0% 50%}
+   50%{
+     background-position: 100% 50%}
+   100%{
+     background-position: 0% 50%}
+ }
+ 
+
+.array-container {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 150px;
+    
+  }
+  
+  .array-bar {
+    width: 2px;
+    display: inline-block;
+    margin: 0 1px;
+  }
+
+
+
+
+
+
+
+
